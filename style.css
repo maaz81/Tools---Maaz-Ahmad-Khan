@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: rgba(34, 34, 34, .9);
+    color:  #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+}
+
+#mak-log{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    left: 15rex;
+    position: relative;
+    border-radius: 50%;
+}
+
+#mak-log:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 15rex;
+    position: relative;
+}
+.nav-list li{
+    list-style: none;
+    padding: 0px 30px;
+    font-size: 18px;
+    font-family: "Fira Sans", sans-serif;   
+}
+
+.nav-list li:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 255);   
+}
+
+
+
+
+.list-images ul li img{
+    height: 200px;
+    width: 200px;
+    
+}
+.list-images ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+
+.list-images ul li{
+    list-style: none;
+    padding: 0px 50px;
+}
+
+.list-images ul li img:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.about{
+    margin: 40px;
+    position: relative;
+    left: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.para-about{
+    font-size: 16px;
+    font-family: "Fira Sans", sans-serif; 
+    line-height:3ch;  
+    
+}
+
+
+
+
+
+
+
+
